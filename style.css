@@ -1,15 +1,91 @@
-body{
-    padding: 15px, 14px;
-    margin:10px, 20 px;
-    color: red;
-    font-size:60px;
+p {
+    color: #027500; /*Метод для изменения цвета текста*/
+    font-size: 25px; /*Изменение размера шрифта*/
+    border: 5px solid; /*Метод для создания границы, шириной в 5 пикселей, сплошной заливкой*/
+    padding: 20px;/*Внутренний отступ*/
+    margin: 50px; /*Внешний отступ*/
+    background-color: chartreuse; /*Метод для изменения цвета заднего фона у объекта*/
+    border-color: black; /*Задаём цвет для границы*/
+    border-radius: 0px 32px 0px 0px; /*Скругляет углы у наших рамок на объекте*/
 }
 
 
-p{
-    background-color: aqua;
-    padding: 15px, 14px;
-    margin:10px, 20 px;
-    color: red;
-    font-size:50px;
+/*в теге боди я задал радужный фон
+при помощи линейного градиента*/
+body {
+    background-color: pink;
+}
+
+p:hover {
+    scale: 1.2;
+}
+
+h1 {
+    width: 100%; /* Метод задавания ширины на странице объекту*/
+    text-align: center; /*Размещаем текст по центру ширины блока*/
+}
+
+/*---------------uroc3---------------------*/
+/* ul {
+    padding: 15px;
+    margin: 3px;
+    background: burlywood;
+    list-style: square; circle, disc,quare, none
+}
+ul li {
+    padding: 5px;
+    margin: 5px 15px;   
+    background-color: blue;
+} */
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+#first{
+    color: #027500;
+}
+
+.width{
+    width: 300px;
+}
+
+.first{
+   float: left;
+   width: auto;
+}
+
+
+a {
+    background: #027500; /*������ ��� ����� ������*/
+    color: aqua; /*���� ������ ������*/
+    display: block; /*������ ��� ������ �������*/
+
+}
+ol {
+    padding: 15px;
+    margin: 3px;
+    background: purple;
+    list-style: lower-roman; /*decimal*/
+}
+
+
+img{
+    margin: 15px;
+    border-radius: 65px 0;
+    box-shadow: 3px 3px 12px 1px;
+    border: 1px solid;
+    width: 300px;
+    height: 230px;
+}
+ol li{
+    padding: 5px;
+    margin: 3px;
+    background: palegoldenrod;
 }
